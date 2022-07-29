@@ -222,3 +222,22 @@ body {
    justify-content: space-between;
    text-align: center;
 }
+
+.border-black{
+   text-decoration: none;
+}
+
+.border-black {
+   height: 30px;
+   width: 100px;
+   background-color: black;
+   color: #ffffff;
+}
+
+.border-white {
+   height: 30px;
+   width: 100px;
+   background-color: #ffffff;
+   color: #0b0e49;
+   text-decoration: none;
+}
