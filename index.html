@@ -8,6 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto:wght@300;500;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="/slider/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slider/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/slider/slick/slick.min.js"></script>
+
     <title>Blxck & White</title>
 </head>
 <body>
@@ -20,7 +27,11 @@
         </menu>
     </div>
     <head>
-        <img src="/images/head.jpg" alt="ring" class="head-img">
+        <div class="single-slide">
+            <div><img src="/images/head.jpg" alt="ring" class="head-img"></div>
+            <div><img src="/images/head.jpg" alt="ring" class="head-img"></div>
+            <div><img src="/images/head.jpg" alt="ring" class="head-img"></div>
+        </div>
         <div class="menu-head">
                     <a href="/">Art project</a>
                     <a href="/">Photos</a>
@@ -81,5 +92,10 @@
             </div>
         </div>
     </section>
+    <script>
+        $('.single-slide').slick({
+          
+        });
+      </script>
 </body>
 </html>
